@@ -19,8 +19,10 @@ repositories {
 }
 
 dependencies {
-    implementation("com.theokanning.openai-gpt3-java:client:0.8.1")
     implementation("org.springframework.boot:spring-boot-starter")
+    implementation("com.theokanning.openai-gpt3-java:client:0.8.1")
+    // https://mvnrepository.com/artifact/org.telegram/telegrambots
+    implementation("org.telegram:telegrambots:6.3.0")
 
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")

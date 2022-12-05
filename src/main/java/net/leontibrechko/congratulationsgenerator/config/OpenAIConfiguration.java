@@ -32,7 +32,7 @@ public class OpenAIConfiguration {
     public CompletionRequestFactory completionRequestFactory() {
         return new CompletionRequestFactory(
                 "text-davinci-003",
-                0.25,
+                0.8,
                 1024
         );
     }
